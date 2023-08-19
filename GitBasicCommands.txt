@@ -1,0 +1,15 @@
+git commands
+
+install git
+1.open cmd
+2.commands for username and email
+	git config --global user.name "username"
+	git config --global user.email "email"
+	
+3.commands to check username and email
+	git config --global user.name
+	git config --global user.email
+	
+4.command to edit username and email
+	git config --global --edit
+	to save-press esc =>:wq=>enter
