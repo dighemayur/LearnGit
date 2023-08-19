@@ -51,3 +51,12 @@ install git
 
 14.to merge the files
 	git merge branchName
+	
+15. pushed the branch
+	first go the branch=>git checkout branchName
+	git push -u origin branchName
+	
+16.push the changes
+	add,
+	commit,
+	git push.
