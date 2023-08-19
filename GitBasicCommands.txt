@@ -13,3 +13,19 @@ install git
 4.command to edit username and email
 	git config --global --edit
 	to save-press esc =>:wq=>enter
+	
+5.git init
+	used to create a new blank repositor
+	
+5.git status
+	use to check the status of repository
+
+6.add a file into git
+	git add filename.ext
+	(after doing git add , our files comes into the STAGING AREA then we can do commit)
+	
+7.commit command
+	git commit -m "commit message"
+
+8.command to check all commits
+	git log
