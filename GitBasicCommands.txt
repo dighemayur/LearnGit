@@ -22,10 +22,32 @@ install git
 
 6.add a file into git
 	git add filename.ext
+			or
+	git add . (it will use to add all files which was modified)
 	(after doing git add , our files comes into the STAGING AREA then we can do commit)
 	
 7.commit command
 	git commit -m "commit message"
 
-8.command to check all commits
+8.command to check all commits or all details of merges
 	git log
+	
+9.to go at any place 
+	git checkout hashcode
+	(basically it used to move from branch to branch)
+	(it will give u files/code or changes before commit to of this hashcode)
+
+10.if u want to go again back
+	git checkout master
+	
+11.make a branch
+	git branch branchName
+	
+12.to check the branch
+	git branch
+	
+13.to go in another branch
+	git checkout branchName
+
+14.to merge the files
+	git merge branchName
